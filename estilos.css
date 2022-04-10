@@ -326,9 +326,11 @@ header{
 @media (min-width: 800px){
     .servicios__texto{
         display: flex;
+        text-align: left;
         max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
+         margin-left: auto;
+        margin-right: auto; 
+        
 
     }
 
