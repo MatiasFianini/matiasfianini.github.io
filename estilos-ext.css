@@ -3,3 +3,134 @@
 *::after{
     box-sizing: border-box;
 }
+
+:focus{
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
+.trabajos{
+margin: 1.5rem 1.5rem;
+background-color: var(--color-dark);
+color: var(--color-ligth);
+padding-block: 5em;
+}
+
+
+.trabajo-item{
+margin-block: 2.5rem;
+}
+
+ .trabajo-item h3{
+  font-size: clamp(1.7rem, 1vw + 1.7rem, 2.5rem);
+  color: var(--color-accent);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-bold);
+} 
+
+.media-desktop{
+    margin-block: 2rem;
+}
+
+.version-p{
+    font-size: 1.35rem;
+    text-decoration: underline;
+    color: #fff;
+    font-family: var(--ff-secondary);
+}
+
+/* Contenedor imagenes desktop */
+.media-img-cont{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Contenedor imagenes mobile */
+.media-img-cont2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.desktop-img{
+    
+    width: 500px;
+    box-shadow: var(--boxshadow);
+}
+
+.media-mobile{
+    margin-block: 2rem;
+}
+
+.mobile-img{
+    box-shadow: var(--boxshadow);
+}
+
+/* Descripción */
+
+.desc{
+    text-align: justify;
+}
+
+/* Tecnologías */
+
+.tecnologias{
+    font-size: 2rem;
+    color: var(--color-accent);
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+
+}
+
+.tecnologias-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 3rem;
+    color: #0e0e0e;
+    background: rgba(236, 236, 236, 0.5);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.cont-boton{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media query */
+@media (max-width: 1000px){
+
+    .trabajos{
+        margin: 1.5rem 0rem;
+        background-color: var(--color-dark);
+        color: var(--color-ligth);
+    }
+    
+    .tecnologias-ul{
+        font-size: 2.4rem;
+    }
+    
+    .media-img-cont{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px){
+    .mobile-img{
+        min-width: 145px;
+    }
+}
