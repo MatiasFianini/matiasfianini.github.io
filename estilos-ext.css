@@ -19,6 +19,8 @@ padding-block: 5em;
 
 .trabajo-item{
 margin-block: 2.5rem;
+display: flex;
+flex-direction: column;
 }
 
  .trabajo-item h3{
@@ -113,7 +115,10 @@ margin-block: 2.5rem;
 
 
 
-
+iframe{
+    margin: 20px auto;
+    width: 560px;
+}
 
 /* Media query */
 @media (max-width: 1000px){
