@@ -21,6 +21,7 @@ padding-block: 5em;
 margin-block: 2.5rem;
 display: flex;
 flex-direction: column;
+
 }
 
  .trabajo-item h3{
@@ -114,10 +115,22 @@ flex-direction: column;
 }
 
 
+.iframe-cont{
+overflow: hidden;
+width: 100%;
+display: flex;
+justify-content: center;
+}
 
 iframe{
-    margin: 20px auto;
-    width: 560px;
+    margin: 10px auto;
+    max-width: 560px;
+    object-position: center;
+}
+
+.artimg{
+    max-height: 430px;
+    min-width: 150px;
 }
 
 /* Media query */
@@ -140,7 +153,14 @@ iframe{
 }
 
 @media (max-width: 600px){
+
+    .media-img-cont2{
+    flex-direction: column;
+    align-items: center;
+    }
+
     .mobile-img{
         min-width: 145px;
     }
+
 }
