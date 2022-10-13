@@ -2,10 +2,22 @@
 <html lang="es">
 
 <head>
+    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Matias Fianini</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="description" content="Portfolio personal de Matias Fianini, desarrollador web en General Rodríguez, Buenos Aires. Quien principalmente desarrolla sitios web únicos en React Js">
+    <meta name="image" content="https://matiasfianini.github.io/foto.png">
+    <meta property="og:title" content="Matias Fianini - Diseño web">
+    <meta property="og:type" content="Portfolio">
+    <meta property="og:image" content="https://matiasfianini.github.io/foto.png">
+    <meta property="og:description" content="Portfolio personal de Matias Fianini, desarrollador web en General Rodríguez, Buenos Aires. Quien principalmente desarrolla sitios web únicos en React Js">
+
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -43,16 +55,16 @@
         </nav>
     </header>
 
-    <main>
+    <main role="main">
         <!-- Introducción -->
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                Hola, soy <strong>Matias Fianini</strong>
+                Hola, soy <strong itemprop="author" name="Matias Fianini">Matias Fianini</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">
                 Desarrollador Front-End
             </p>
-            <img src="foto.png" alt="Foto de Matias Fianini" class="intro__img">
+            <img itemprop="image" src="foto.png" alt="Foto de Matias Fianini" class="intro__img">
         </section>
 
         <!-- Servicios -->
@@ -102,7 +114,7 @@
                     orientado al diseño de páginas web y aplicaciones mobile disruptivas e innovadoras con un toque
                     personal y artístico.</p>
             </div>
-            <img src="matiaslaptop.jpg" alt="Matias Fianini" class="fotolaptop">
+            <img itemprop="image" src="matiaslaptop.jpg" alt="Matias Fianini" class="fotolaptop">
         </section>
 
         <div class="herramientas">
@@ -149,27 +161,27 @@
             <div class="portfolio">
 
                 <a href="rumpel.html" class="portfolio__item">
-                    <img src="rumpel.svg" alt="rumpel animaciones" class="portfolio__img">
+                    <img itemprop="image" src="rumpel.svg" alt="rumpel animaciones" class="portfolio__img">
                 </a>
 
                 <a href="royal.html" class="portfolio__item">
-                    <img src="makeup.svg" alt="" class="portfolio__img">
+                    <img itemprop="image" src="makeup.svg" alt="" class="portfolio__img">
                 </a>
 
                 <a href="tiendamia.html" class="portfolio__item">
-                    <img src="tiendamia.svg" alt="" class="portfolio__img">
+                    <img itemprop="image" src="tiendamia.svg" alt="" class="portfolio__img">
                 </a>
 
                 <a href="mktagencia.html" class="portfolio__item">
-                    <img src="mktagencia.svg" alt="" class="portfolio__img">
+                    <img itemprop="image" src="mktagencia.svg" alt="" class="portfolio__img">
                 </a>
 
                 <a href="tteservi.html" class="portfolio__item">
-                    <img src="transporte.svg" alt="transporte servientrega sitio web" class="portfolio__img">
+                    <img itemprop="image" src="transporte.svg" alt="transporte servientrega sitio web" class="portfolio__img">
                 </a>
 
                 <a href="artdecoexp.html" class="portfolio__item">
-                    <img src="decoexp.svg" alt="art deco experience sitio web" class="portfolio__img">
+                    <img itemprop="image" src="decoexp.svg" alt="art deco experience sitio web" class="portfolio__img">
                 </a>
 
             </div>
